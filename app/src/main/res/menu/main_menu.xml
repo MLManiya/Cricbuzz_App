@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_menu_rating"
+        android:title="Rate The App"
+        android:icon="@drawable/baseline_star_border_24"
+        app:showAsAction="withText">
+    </item>
+    <item
+        android:id="@+id/main_menu_feedback"
+        android:title="Feedback"
+        android:icon="@drawable/baseline_feedback_24"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/main_menu_setting"
+        android:title="Setting"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="collapseActionView">
+    </item>
+    <item
+        android:id="@+id/main_menu_about"
+        android:title="About The App"
+        android:icon="@drawable/baseline_apps_24"
+        app:showAsAction="always">
+    </item>
+</menu>
